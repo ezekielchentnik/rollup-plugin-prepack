@@ -21,7 +21,7 @@ Use plugin in your `rollup.config.js`
 
 ```js
 const buble = require('rollup-plugin-buble')
-const prepack = require('rollup-plugin-prepack').default // reference .default for commonjs
+const prepack = require('rollup-plugin-prepack')
 
 const options = {} // prepack options, see prepack docs
 
@@ -40,11 +40,6 @@ module.exports = {
 |Name|Description|Default|
 |---|---|---|
 |`prepack`|Prepack configuration. See [Prepack documentation](https://prepack.io/getting-started.html#options).|
-
-
-### Examples
-
-- [preact-pwa](https://github.com/ezekielchentnik/preact-pwa)
 
 
 ### License
