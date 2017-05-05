@@ -1,0 +1,37 @@
+{
+  "name": "rollup-plugin-prepack",
+  "version": "0.0.0",
+  "description": "Rollup plugin to easily run your bundles through prepack",
+  "main": "dist/rollup-plugin-prepack.js",
+  "module": "dist/rollup-plugin-prepack.es.js",
+  "jsnext:main": "dist/rollup-plugin-prepack.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "standard",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "rollup",
+    "rollup-plugin",
+    "prepack",
+    "performance"
+  ],
+  "author": "Ezekiel Chentnik <me@ezekielchentnik.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezekielchentnik/rollup-plugin-prepack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ezekielchentnik/rollup-plugin-prepack/issues"
+  },
+  "homepage": "https://github.com/ezekielchentnik/rollup-plugin-prepack",
+  "devDependencies": {
+    "rollup": "0.41.6",
+    "rollup-plugin-buble": "0.15.0",
+    "standard": "10.0.2"
+  },
+  "dependencies": {
+    "prepack": "0.2.0"
+  }
+}
